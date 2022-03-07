@@ -210,3 +210,58 @@ header {
 .invisible {
   display: none;
 }
+
+/*mobile menu*/
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("./images/background-image.jpeg");
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100%;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  justify-self: flex-start;
+  width: 100vw;
+}
+
+.logo {
+  width: 30px;
+  height: auto;
+  margin: 10px;
+}
+
+.close {
+  margin: 10px;
+}
+
+.links {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.list-item {
+  margin: 30px 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #272a31;
+  font-size: 30px;
+}
+
+.cc {
+  font-size: 30px;
+  margin: 30px 0;
+  background:rgba(255, 255, 255, 0.3);
+  border: 5px solid #ec5242;
+  color: #272a31;
+}
