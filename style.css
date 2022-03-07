@@ -1,3 +1,15 @@
+body {
+  margin: 0;
+}
+
+/*media query for mobile version*/
+
+@media only screen and (max-width: 768px) {
+  .desktop-header {
+    display: none;
+  }
+}
+
 /*fonts*/
 
 .cocogoose {
@@ -6,4 +18,66 @@
 
 .lato {
   font-family: 'Lato', sans-serif;
+}
+
+/*header*/
+
+header {
+  position: absolute;
+  top: 0;
+}
+
+.mobile-header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hamburger {
+  margin: 10px;
+}
+
+/*headline section*/
+
+.headline {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("./images/background-image.jpeg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding: 10%;
+  padding-top: 50px;
+}
+
+.greeting {
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgba(236, 82, 66, 0.9);
+}
+
+.title {
+  font-size: 45px;  
+  color: rgba(236, 82, 66, 0.9);
+}
+
+.description {
+  border: 2px solid white;
+  padding: 10px;
+  background:rgba(255, 255, 255, 0.5);
+  color: #272a31;
+}
+
+.date {
+  font-size: 30px;
+  padding-top: 10px;
+  color: rgba(39, 42, 33, 0.9)
+}
+
+.location {
+  color: #272a31;
+}
+
+/*media query for headline backround image*/
+
+@media only screen and (min-width: 1000px) {
+  .headline {
+    background-size: 100vw;
+  }
 }
