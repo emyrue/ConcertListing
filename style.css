@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 /*media query for mobile version*/
@@ -126,5 +127,5 @@ header {
 .small-description {
   color: white;
   font-size: 12px;
-  flex-basis: 75%;
+  flex-basis: 60%;
 }
