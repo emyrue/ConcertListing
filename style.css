@@ -10,7 +10,8 @@ body {
 /*media query for mobile version*/
 
 @media only screen and (max-width: 768px) {
-  .desktop-header {
+  .desktop-header,
+  .row {
     display: none;
   }
 }
@@ -133,6 +134,7 @@ header {
   padding: 0 10px;
   flex-basis: 90px;
   flex-shrink: 0;
+  font-weight: 900;
 }
 
 .small-description {
@@ -156,8 +158,11 @@ header {
   margin: 10px;
 }
 
-.row {
+.visible {
   display: flex;
+}
+
+.row {
   flex-direction: column;
 }
 
@@ -177,7 +182,7 @@ header {
 
 .name {
   color: #272a31;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 .italics {
@@ -194,4 +199,14 @@ header {
 .background {
   font-size: 13px;
   color: #272a31;
+}
+
+.more {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.invisible {
+  display: none;
 }
