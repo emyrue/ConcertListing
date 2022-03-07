@@ -74,10 +74,21 @@ header {
   color: #272a31;
 }
 
-/*media query for headline backround image*/
+/*media query for headline backround image size*/
 
 @media only screen and (min-width: 1000px) {
   .headline {
     background-size: 100vw;
   }
+}
+
+.program {
+  background-color: #272a31;
+  background-image: url("./images/pattern.png");
+}
+
+.program-heading {
+  text-align: center;
+  color: white;
+  font-size: 30px;
 }
