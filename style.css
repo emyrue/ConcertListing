@@ -82,13 +82,49 @@ header {
   }
 }
 
-.program {
+/*Information section*/
+
+.information {
   background-color: #272a31;
   background-image: url("./images/pattern.png");
+  padding: 5%;
 }
 
-.program-heading {
+.information-heading {
   text-align: center;
   color: white;
   font-size: 30px;
+}
+
+.information-sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  background:rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.icon {
+  flex-basis: auto;
+}
+
+.heading {
+  color: #ec5242;
+  padding: 0 10px;
+  flex-basis: 90px;
+  flex-shrink: 0;
+}
+
+.small-description {
+  color: white;
+  font-size: 12px;
+  flex-basis: 75%;
 }
