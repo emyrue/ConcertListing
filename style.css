@@ -3,6 +3,10 @@ body {
   overflow-x: hidden;
 }
 
+.default {
+  display: none;
+}
+
 /*media query for mobile version*/
 
 @media only screen and (max-width: 768px) {
@@ -91,6 +95,12 @@ header {
   padding: 5%;
 }
 
+.line {
+  width: 50px;
+  border-top: 1px solid #ec5242;
+  margin: 10px auto;
+}
+
 .information-heading {
   text-align: center;
   color: white;
@@ -111,6 +121,7 @@ header {
   margin: 10px 0;
   width: 100%;
   justify-content: space-between;
+  min-height: 75px;
 }
 
 .icon {
@@ -128,4 +139,59 @@ header {
   color: white;
   font-size: 12px;
   flex-basis: 60%;
+}
+
+/*featured section*/
+
+.featured-heading {
+  font-size: 30px;
+  color: #272a31;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.speakers {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.speaker {
+  display: flex;
+  margin: 10px;
+}
+
+.speaker-img {
+  width: 100px;
+  height: 100px;
+}
+
+.speaker-info {
+  margin-left: 10px;
+}
+
+.name {
+  color: #272a31;
+  font-weight: bolder;
+}
+
+.italics {
+  color: #ec5242;
+  font-size: 12px;
+}
+
+.line2 {
+  width: 50px;
+  border-top: 1px solid #d3d3d3;
+  margin: 10px 0;
+}
+
+.background {
+  font-size: 13px;
+  color: #272a31;
 }
