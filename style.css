@@ -61,6 +61,7 @@ header {
 .title {
   font-size: 45px;  
   color: rgba(236, 82, 66, 0.9);
+  margin: 0;
 }
 
 .description {
@@ -68,6 +69,7 @@ header {
   padding: 10px;
   background:rgba(255, 255, 255, 0.5);
   color: #272a31;
+  margin: 0;
 }
 
 .date {
@@ -94,6 +96,10 @@ header {
   background-color: #272a31;
   background-image: url("./images/pattern.png");
   padding: 5%;
+}
+
+.information-heading {
+  margin: 0;
 }
 
 .line {
@@ -183,6 +189,7 @@ header {
 .name {
   color: #272a31;
   font-weight: 900;
+  margin: 0;
 }
 
 .italics {
@@ -199,12 +206,15 @@ header {
 .background {
   font-size: 13px;
   color: #272a31;
+  margin: 0;
 }
 
 .more {
   font-size: 20px;
   display: flex;
   justify-content: center;
+  background-color: #d3d3d3;
+  border: none;
 }
 
 .invisible {
