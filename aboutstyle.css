@@ -60,12 +60,13 @@ header {
   padding: 10px;
   background: white;
   color: #272a31;
-  margin: 0;
+  margin: 20px 0;
 }
 
 .contact {
   color: #272a31;
   font-size: 13px;
+  text-align: center;
 }
 
 .email {
@@ -75,4 +76,41 @@ header {
   font-size: 14px;
   text-decoration: none;
   color: #272a31;
+}
+
+/*media query for background image*/
+
+@media only screen and (min-width: 1280px) {
+  .headline {
+    background-size: 100vw;
+  }
+}
+/*logo section*/
+
+.logo-section {
+  padding: 10px;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.logo-heading {
+  text-align: center;
+  margin: 10px;
+}
+
+.line {
+  width: 50px;
+  border-top: 1px solid #ec5242;
+  margin: 10px auto;
+}
+
+.logo-container {
+  border: 1px solid #d3d3d3;
+  text-align: center;
+  padding: 20px;
+  margin: 30px 0;
+}
+
+.logo {
+  width: 100px;
 }
