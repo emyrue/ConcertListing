@@ -3,7 +3,8 @@ body {
   overflow-x: hidden;
 }
 
-/*header*/
+/* header */
+
 header {
   position: absolute;
   top: 0;
@@ -13,12 +14,12 @@ header {
   display: flex;
   justify-content: flex-start;
 }
-  
+
 .hamburger {
   margin: 10px;
 }
 
-/*fonts*/
+/* fonts */
 
 .lato {
   font-family: 'Lato', sans-serif;
@@ -28,7 +29,7 @@ header {
   font-family: 'COCOGOOSE', sans-serif;
 }
 
-/*max-width for mobile version*/
+/* max-width for mobile version */
 
 @media only screen and (max-width: 768px) {
   .desktop-header,
@@ -37,10 +38,10 @@ header {
   }
 }
 
-/*headline section*/
+/* headline section */
 
 .headline {
-  padding: 50px 10px 30px 10px;;
+  padding: 50px 10px 30px 10px;
   text-align: center;
   background-image: url("./images/about-background.png");
 }
@@ -61,9 +62,8 @@ header {
   padding: 10px;
   background: white;
   color: #272a31;
-  margin: 20px 0;
   max-width: 700px;
-  margin: auto;
+  margin: 20px auto;
 }
 
 .contact {
@@ -82,14 +82,15 @@ header {
   color: #272a31;
 }
 
-/*media query for background image*/
+/* media query for background image */
 
 @media only screen and (min-width: 1280px) {
   .headline {
     background-size: 100vw;
   }
 }
-/*logo section*/
+
+/* logo section */
 
 .logo-section {
   padding: 10px;
@@ -120,7 +121,7 @@ header {
   width: 100px;
 }
 
-/*past concerts*/
+/* past concerts */
 
 .past-concerts {
   padding: 10px;
@@ -169,7 +170,7 @@ header {
   font-size: 15px;
 }
 
-/*partners section*/
+/* partners section */
 
 .partners {
   background-color: #272a31;
@@ -192,7 +193,7 @@ svg {
   margin: 10px;
 }
 
-/*footer*/
+/* footer */
 
 footer {
   display: flex;
@@ -212,7 +213,7 @@ footer {
 }
 
 @media only screen and (min-width: 769px) {
-  /*menu*/
+  /* menu */
 
   .mobile-header {
     display: none;
@@ -263,7 +264,7 @@ footer {
     margin-right: 30px;
   }
 
-  /*headline*/
+  /* headline */
 
   .headline {
     padding-top: 150px;
@@ -278,7 +279,7 @@ footer {
     font-size: 70px;
   }
 
-  /*logo section*/
+  /* logo section */
 
   .logo-heading {
     font-size: 40px;
@@ -288,7 +289,8 @@ footer {
     font-size: 15px;
   }
 
-  /*past concerts section*/
+  /* past concerts section */
+
   .container {
     display: flex;
     justify-content: center;
@@ -298,13 +300,13 @@ footer {
     margin: 0 50px;
   }
 
-  /*partners*/
+  /* partners */
 
   .partners {
     display: none;
   }
 
-  /*footer*/
+  /* footer */
 
   footer {
     background: #272a31;

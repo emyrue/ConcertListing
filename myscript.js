@@ -98,10 +98,10 @@ const moreButton = document.querySelector('.more');
 const hiddenRows = document.querySelectorAll('.find-row');
 const hamburger = document.querySelector('.hamburger');
 const xIcon = document.querySelector('.close');
-const mobileMenu = document.querySelector('.find-menu')
+const mobileMenu = document.querySelector('.find-menu');
 
 function displayRows() {
-  for(let i = 0; i < hiddenRows.length; i += 1) {
+  for (let i = 0; i < hiddenRows.length; i += 1) {
     hiddenRows[i].classList.add('visible');
     moreButton.classList.remove('more');
   }
