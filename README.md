@@ -9,6 +9,10 @@
 - CSS
 - JavaScript
 
+## Live Demo (if available)
+
+[Live Demo Link](https://emyrue.github.io/Module1Capstone/)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple steps: 
