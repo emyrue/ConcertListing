@@ -163,3 +163,16 @@ header {
   margin: 0;
   font-size: 15px;
 }
+
+/*partners section*/
+
+.partners {
+  background-color: #272a31;
+  text-align: center;
+  padding: 10px;
+}
+
+.partners-heading {
+  color: white;
+  margin: 10px;
+}
