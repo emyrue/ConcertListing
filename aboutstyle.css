@@ -176,3 +176,13 @@ header {
   color: white;
   margin: 10px;
 }
+
+.partners-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+svg {
+  margin: 10px;
+}
