@@ -73,15 +73,15 @@ const markup = `
         </div>
       </div>
       <div class="speaker">
-        <img class="speaker-img" src="./images/profile.png" alt="sixth speaker">
+        <img class="speaker-img" src="./images/maggie.png" alt="sixth speaker">
         <div class="speaker-info">
-          <div class="name lato">Yochai Benkler</div>
+          <div class="name lato">Maggie Rogers</div>
           <div class="italics lato">
-            <em>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</em>
+            <em>American Singer/ Song-writer</em>
           </div>
           <div class="line2"></div>
           <div class="background lato">
-            Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.
+            Her big break came when her song "Alaska" was played to Pharrell Williams during a master class at New York University's Clive Davis Institute of Recorded Music.
           </div>
         </div>
       </div>
