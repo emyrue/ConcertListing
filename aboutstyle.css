@@ -114,3 +114,52 @@ header {
 .logo {
   width: 100px;
 }
+
+/*past concerts*/
+
+.past-concerts {
+  padding: 10px;
+}
+
+.two-years {
+  background-image: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url('./images/2020.png');
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 240px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  border: none;
+}
+
+.one-year {
+  background-image: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url('./images/2021.png');
+  background-repeat: no-repeat;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 150px;
+  max-width: 240px;
+  padding: 10px;
+  text-align: center;
+  border: none;
+}
+
+.years {
+  text-decoration: none;
+  color: white;
+}
+
+.year {
+  margin: 0;
+  font-size: 25px;
+}
+
+.small-description {
+  margin: 0;
+  font-size: 15px;
+}

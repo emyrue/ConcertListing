@@ -213,8 +213,8 @@ header {
   font-size: 20px;
   display: flex;
   justify-content: center;
-  background-color: #d3d3d3;
-  border: none;
+  border: 2px solid #d3d3d3;
+  background-color: white;
 }
 
 /*mobile menu*/
