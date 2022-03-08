@@ -31,7 +31,8 @@ header {
 /*max-width for mobile version*/
 
 @media only screen and (max-width: 768px) {
-  .desktop-header {
+  .desktop-header,
+  .white-logo {
     display: none;
   }
 }
@@ -61,12 +62,15 @@ header {
   background: white;
   color: #272a31;
   margin: 20px 0;
+  max-width: 700px;
+  margin: auto;
 }
 
 .contact {
   color: #272a31;
   font-size: 13px;
   text-align: center;
+  padding-top: 20px;
 }
 
 .email {
@@ -108,7 +112,8 @@ header {
   border: 1px solid #d3d3d3;
   text-align: center;
   padding: 20px;
-  margin: 30px 0;
+  margin: 30px auto;
+  max-width: 600px;
 }
 
 .logo {
@@ -143,7 +148,7 @@ header {
   flex-direction: column;
   justify-content: center;
   height: 150px;
-  max-width: 240px;
+  width: 240px;
   padding: 10px;
   text-align: center;
   border: none;
@@ -204,4 +209,118 @@ footer {
 .copyright {
   font-size: 15px;
   color: #272a31;
+}
+
+@media only screen and (min-width: 769px) {
+  /*menu*/
+
+  .mobile-header {
+    display: none;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+  }
+
+  .desktop-header {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    background: white;
+    padding: 10px;
+  }
+
+  .company-logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .flex-container {
+    display: flex;
+  }
+
+  .desktop-menu {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .menu-item {
+    list-style: none;
+  }
+
+  .menu-link {
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .menu-cc {
+    border: 2px solid #ec5242;
+    background: white;
+    font-size: 20px;
+    margin-right: 30px;
+  }
+
+  /*headline*/
+
+  .headline {
+    padding-top: 150px;
+    padding-bottom: 75px;
+  }
+
+  .greeting {
+    font-size: 50px;
+  }
+
+  .title {
+    font-size: 70px;
+  }
+
+  /*logo section*/
+
+  .logo-heading {
+    font-size: 40px;
+  }
+
+  .contact {
+    font-size: 15px;
+  }
+
+  /*past concerts section*/
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .years {
+    margin: 0 50px;
+  }
+
+  /*partners*/
+
+  .partners {
+    display: none;
+  }
+
+  /*footer*/
+
+  footer {
+    background: #272a31;
+    padding: 30px;
+  }
+
+  .low-logo {
+    display: none;
+  }
+
+  .white-logo {
+    width: 75px;
+  }
+
+  .copyright {
+    color: white;
+    max-width: 500px;
+  }
 }
