@@ -12,7 +12,8 @@ body {
 @media only screen and (max-width: 768px) {
   .desktop-header,
   .row,
-  footer {
+  .partners,
+  .footer {
     display: none;
   }
 }
@@ -222,6 +223,27 @@ header {
   justify-content: center;
   border: 2px solid #d3d3d3;
   background-color: white;
+}
+
+/* footer */
+
+.mobile-footer {
+  background: #272a31;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.white-logo {
+  width: 50px;
+  margin: 20px;
+}
+
+.mobile-copyright {
+  color: white;
+  font-size: 12px;
+  margin: 20px;
+  max-width: 400px;
 }
 
 /* mobile menu */
@@ -454,5 +476,9 @@ header {
     font-size: 15px;
     max-width: 500px;
     color: #272a31;
+  }
+
+  .mobile-footer {
+    display: none;
   }
 }
